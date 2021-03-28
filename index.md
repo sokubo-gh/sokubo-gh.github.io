@@ -7,11 +7,11 @@ Contents
 
 |メニュー|内容|
 |:-:|:-|
-|Debian|Debian GNU/Linuxへのパッケージインストールメモ
-|WSL|WSL(Windows Subsystem for Linux)活用メモ|
-|Heroku|PaaSであるHeroku活用メモ|
-|Wicket|Apache Wicketを使用したプログラミングメモ|
-|MDWiki|本サイトで使用しているMDWikiのセットアップ、利用メモ|
+|[Debian](debian.md)|Debian GNU/Linuxへのパッケージインストールメモ
+|[Heroku](heroku.md)|PaaSであるHeroku活用メモ|
+|[JavaEE](javaee.md)|Java Enterprise Editionでのプログラミングメモ|
+|[Wicket](wicket.md)|Apache Wicketを使用したプログラミングメモ|
+|[MDWiki](mdwiki.md)|本サイトで使用しているMDWikiのセットアップ、利用メモ|
 
 
 About
@@ -32,4 +32,3 @@ WCG
 ---
 
 <iframe src="https://www.worldcommunitygrid.org/getDynamicImage.do?memberName=sokubo&mnOn=false&stat=3&imageNum=1&rankOn=false&projectsOn=false&special=false&link=0&memberId=727495" frameborder="0" name="di" scrolling="no" width="405px" height="145px"></iframe>
-
