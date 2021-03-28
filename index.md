@@ -22,7 +22,8 @@ About
 * http://blog.goo.ne.jp/sokubo-memo/  ブログ人からの自動移行先、sokubo.netへ移行し閉鎖
 * http://sokubo.net/memo/  独自ドメインで運用後、MyDNSのサブドメインへ移行し閉鎖
 * http://sokubo.mydns.jp/memo/  自宅サーバからHerokuへ移行し閉鎖
-* http://sokubo-memo.herokuapp.com/  現行
+* http://sokubo-memo.herokuapp.com/  GitHub Pagesへ移行
+* https://sokubo-gh.github.io/  現行
 
 
 ----
