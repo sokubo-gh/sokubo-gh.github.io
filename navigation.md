@@ -4,9 +4,9 @@
 
 [Heroku](heroku.md)
 
-[Wicket](wicket.md)
-
 [JavaEE](javaee.md)
+
+[Wicket](wicket.md)
 
 [MDWiki](mdwiki.md)
 
