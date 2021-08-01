@@ -11,4 +11,4 @@
 [MDWiki](mdwiki.md)
 
 
-[gimmick:theme](flatly)
+[gimmick:theme](readable)
