@@ -10,5 +10,4 @@
 
 [MDWiki](mdwiki.md)
 
-
-[gimmick:theme](cerulean)
+[gimmick:theme](flatly)
