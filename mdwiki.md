@@ -90,10 +90,10 @@ Windows版nginx
   * No.1に起動用バッチファイルの作成
   ```
   @echo off
-  
+
   cd (任意のフォルダ)\nginx\
   start (任意のフォルダ)\nginx\nginx.exe
-  
+
   echo nginx started > (任意のフォルダ)\nginx.txt
   date /t >> (任意のフォルダ)\nginx.txt
   time /t >> (任意のフォルダ)\nginx.txt
@@ -101,9 +101,9 @@ Windows版nginx
   *  No.1に停止用バッチファイルの作成
   ```
   @echo off
-  
+
   del (任意のフォルダ)\nginx.txt
-  
+
   cd (任意のフォルダ)\nginx\
   (任意のフォルダ)\nginx\nginx.exe -s stop
   ```
@@ -159,3 +159,9 @@ Heroku CLI, gitインストールされた環境が前提
   ```
 
 
+GitHub Pages
+------------
+
+  * GitHub Pages用のリポジトリ(\[username\].github.io)を作成
+  * リポジトリにREADME.mdを作成
+  * mdwiki.html, config.json, *.mdファイルを格納

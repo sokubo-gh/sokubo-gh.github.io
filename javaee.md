@@ -1,3 +1,5 @@
+*このページはメンテナンスしていないため古い情報を含んでいる
+
 Java EE(Java EE, GlassFish, NetBeans)
 =====================================
 
@@ -103,5 +105,3 @@ Message Driven Bean
     sendJMSMessageToXXXXXXXX()メソッドにメッセージテキストを渡して送信する
     テキスト以外のメッセージを送信する場合、NetBeansがデフォルトで生成するcreateJMSMessageForXXXX()を修正してObjectMessageを送信する
   * 適当なサーブレットを作成し、送信元Session Beanを呼び出す
-
-

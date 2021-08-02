@@ -1,14 +1,13 @@
 # memo
 
-[Debian](debian.md)
-
-[Heroku](heroku.md)
-
-[JavaEE](javaee.md)
+[MDWiki](mdwiki.md)
 
 [Wicket](wicket.md)
 
-[MDWiki](mdwiki.md)
+[Heroku](heroku.md)
 
+[(Debian)](debian.md)
+
+[(Java EE)](javaee.md)
 
 [gimmick:theme](readable)

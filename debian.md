@@ -1,23 +1,7 @@
+*このページはメンテナンスしていないため古い情報を含んでいる
+
 Debian/GNU Linux
 ================
-
-ssh
----
-```bash
-$ apt install ssh
-```
-
-
-NIC
----
-```bash
-$ vi /etc/network/interfaces
-allow-hotplug enp2s0
-iface enp2s0 inet static
-        address 192.168.xxx.xxx
-        netmask 255.255.255.0
-        gateway 192.168.xxx.xxx
-```
 
 
 .bashrc
@@ -38,12 +22,39 @@ export LANG=ja_JP.UTF-8
 ```
 
 
+NIC
+---
+```bash
+$ vi /etc/network/interfaces
+allow-hotplug enp2s0
+iface enp2s0 inet static
+        address 192.168.xxx.xxx
+        netmask 255.255.255.0
+        gateway 192.168.xxx.xxx
+```
+
+
+ssh
+---
+```bash
+$ apt install ssh
+```
+
+
 NTP
 ---
 ```bash
 $ apt install ntpdate
 $ crontab -e
 0 3 * * * /usr/sbin/ntpdate (NTPサーバ)
+```
+
+
+boinc-client
+------------
+```bash
+$ apt install boinc-client
+$ boinccmd –project_attach [プロジェクトのURL] [アカウント・キー]
 ```
 
 
@@ -75,6 +86,26 @@ $ /etc/init.d/apache2 restart
 ```
 
 
+Apacheリバースプロキシ
+----------------------
+```bash
+$ cd /etc/apache2/mods-available/
+$ cp -p proxy.conf proxy.conf.org
+$ vi proxy.conf
+ProxyRequests Off
+<Proxy *>
+    Order deny,allow
+    Allow from all
+</Proxy>
+$ a2enmod proxy
+$ a2enmod proxy_http
+$ vi /etc/apache/site-available/xxxx
+ProxyPass / http://xxx.xxx.xxx.xxx/
+ProxyPassReverse / http://xxx.xxx.xxx.xxx/
+$ /etc/init.d/apache2 restart
+```
+
+
 Redis
 -----
 ```bash
@@ -83,23 +114,6 @@ $ vi /etc/redis/redis.conf
 $ /etc/init.d/redis-server restart
 ```
 
-
-boinc-client
-------------
-```bash
-$ apt install boinc-client
-$ boinccmd –project_attach [プロジェクトのURL] [アカウント・キー]
-```
-
-
-unzip
-------------
-```bash
-$ apt install unzip
-```
-
-
-----
 
 LVM
 ---
@@ -148,9 +162,6 @@ LVM
   ```
 
 
-----
-
-
 sshパスワードなしログイン
 -------------------------
 sshでログインする元のサーバをsshクライアント側とし、ログイン先のサーバをsshサーバ側とする。
@@ -183,26 +194,6 @@ $ systemctl restart apache2
 ```
 
 
-Apacheリバースプロキシ
-----------------------
-```bash
-$ cd /etc/apache2/mods-available/
-$ cp -p proxy.conf proxy.conf.org
-$ vi proxy.conf
-ProxyRequests Off
-<Proxy *>
-    Order deny,allow
-    Allow from all
-</Proxy>
-$ a2enmod proxy
-$ a2enmod proxy_http
-$ vi /etc/apache/site-available/xxxx
-ProxyPass / http://xxx.xxx.xxx.xxx/
-ProxyPassReverse / http://xxx.xxx.xxx.xxx/
-$ /etc/init.d/apache2 restart
-```
-
-
 cron-apt
 --------
 ```bash
@@ -211,4 +202,3 @@ $ vi /etc/cron-apt/action.d/3-download
 autoclean -y
 safe-upgrade -y -o APT::Get::Show-Upgraded=true
 ```
-
