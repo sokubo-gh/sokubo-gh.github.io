@@ -165,3 +165,10 @@ GitHub Pages
   * GitHub Pages用のリポジトリ(\[username\].github.io)を作成
   * リポジトリにREADME.mdを作成
   * mdwiki.html, config.json, *.mdファイルを格納
+
+
+Google Analytics
+----------------
+
+  * Googleアナリティクスにてプロパティを追加
+  * 作成されたグローバルサイトタグ(gtag.js)をmdwiki.htmlの<head></head>の先頭に追加
