@@ -24,7 +24,7 @@ About
 |http://blog.goo.ne.jp/sokubo-memo/|gooブログ|広告が邪魔、使いにくい|
 |http://sokubo.net/memo/|自宅サーバ|独自ドメイン廃止|
 |http://sokubo.mydns.jp/memo/|自宅サーバ、MyDNSサブドメイン|自宅サーバ廃止|
-|http://sokubo-memo.herokuapp.com/|Heroku、PHP(MDWiki)|Dyno起動に時間がかかる|
+|http://sokubo-memo.herokuapp.com/|Heroku|Dyno起動に時間がかかる|
 |https://sokubo-gh.github.io/|GitHub(GitHub Pages)|(現行)|
 
 
