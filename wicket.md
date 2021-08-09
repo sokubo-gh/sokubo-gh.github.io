@@ -26,18 +26,14 @@ Apache Wicket
       * Artifact IDはプロジェクト名(例:TestWicket)
       * Wicket Versionは9.x系を選択(Wicket 9.xからはJDK 11以上)
       * 表示されたMavenコマンドを実行(実行時のフォルダにプロジェクトのフォルダが作成)
-
-
-  * プロジェクトの微修正
-    * NetBeansでプロジェクトを開く際に作成されたフォルダを選択
-  　* プロジェクトのプロパティ、一般にある名前が「quickstart」となっている場合は、プロジェクト名(例:TestWicket)に修正
-    * プロジェクトのプロパティ、ビルド、RunのServerで導入済のTomcatを選択
-    * プロジェクトのプロパティ、ビルド、RunのJava EE ServerでJava EE 7 Webを選択(デフォルト)
-    * プロジェクトのプロパティ、ビルド、RunのContext Pathが空欄の場合、プロジェクト名(例:TestWicket)に修正
-
-
-  * ローカル環境での動作確認
-    * NetBeansから実行して、ローカルのTomcat上で起動を確認
+    * プロジェクトの微修正
+      * NetBeansでプロジェクトを開く際に作成されたフォルダを選択
+        * プロジェクトのプロパティ、一般にある名前が「quickstart」となっている場合は、プロジェクト名(例:TestWicket)に修正
+        * プロジェクトのプロパティ、ビルド、RunのServerで導入済のTomcatを選択
+        * プロジェクトのプロパティ、ビルド、RunのJava EE ServerでJava EE 7 Webを選択(デフォルト)
+        * プロジェクトのプロパティ、ビルド、RunのContext Pathが空欄の場合、プロジェクト名(例:TestWicket)に修正
+    * ローカル環境での動作確認
+      * NetBeansから実行して、ローカルのTomcat上で起動を確認
 
 
   * Heroku用のJavaアプリケーションの作成
