@@ -20,11 +20,11 @@ About
 
 |URL|利用サービス|移転理由|
 |:-|:-|:-|
-|http://sokubo.blogzine.jp/memo/|OCNブログ人サービス|サービス終了のため|
-|http://blog.goo.ne.jp/sokubo-memo/|gooブログ(ブログ人からの自動移行)|広告が邪魔、使いにくいため|
-|http://sokubo.net/memo/|自宅サーバ|独自ドメインにする必要もないため|
-|http://sokubo.mydns.jp/memo/|自宅サーバ、MyDNSサブドメイン|自宅サーバ廃止のため|
-|http://sokubo-memo.herokuapp.com/|Heroku、PHP(MDWiki)|初回呼出し時にDynoの時間がかかるため|
+|http://sokubo.blogzine.jp/memo/|OCNブログ人サービス|サービス終了|
+|http://blog.goo.ne.jp/sokubo-memo/|gooブログ|広告が邪魔、使いにくい|
+|http://sokubo.net/memo/|自宅サーバ|独自ドメイン廃止|
+|http://sokubo.mydns.jp/memo/|自宅サーバ、MyDNSサブドメイン|自宅サーバ廃止|
+|http://sokubo-memo.herokuapp.com/|Heroku、PHP(MDWiki)|Dyno起動に時間がかかる|
 |https://sokubo-gh.github.io/|GitHub(GitHub Pages)|(現行)|
 
 
