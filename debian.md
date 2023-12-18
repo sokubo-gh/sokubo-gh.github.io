@@ -11,11 +11,11 @@ $ vi .bashrc
 PS1="\[\033[31m\]\w/\n\[\033[31m\]\u@\h[\t]\[\033[0m\]" # red
 PS1="\[\033[34m\]\w/\n\[\033[34m\]\u@\h[\t]\[\033[0m\]" # blue
 
-alias rm=’rm -i’
-alias cp=’cp -i’
-alias mv=’mv -i’
-alias ls=’ls -F –color’
-alias su=’su -‘
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+alias ls='ls -F -color'
+alias su='su -'
 
 export EDITOR=vi
 export LANG=ja_JP.UTF-8
