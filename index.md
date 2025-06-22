@@ -10,8 +10,8 @@ Contents
 |[MDWiki](mdwiki.md)|本サイトで使用しているMDWikiのセットアップ、利用メモ|
 |[Wicket](wicket.md)|Apache Wicketを使用したプログラミングメモ|
 |[Heroku](heroku.md)|PaaSであるHeroku活用メモ|
-|[(Debian)](debian.md)|Debian GNU/Linuxへのパッケージインストールメモ
-|[(JavaEE)](javaee.md)|Java Enterprise Editionでのプログラミングメモ|
+|[Debian](debian.md)|Debian GNU/Linuxへのパッケージインストールメモ
+|[JavaEE](javaee.md)|Java Enterprise Editionでのプログラミングメモ|
 
 
 About
